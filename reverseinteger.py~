@@ -11,7 +11,6 @@ class Solution:
         elif reverseNumber[len(reverseNumber)-1] == "+":
             return "+" + reverseNumber[0:len(reverseNumber)-1]
         elif reverseNumber[len(reverseNumber)-1] == "-":
-
             return "-" + reverseNumber[0:len(reverseNumber)-1]
         elif int(reverseNumber[0]) == int(0):
             return reverseNumber[1:]
